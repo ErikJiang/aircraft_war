@@ -1,0 +1,120 @@
+*{
+    margin: 0px; padding: 0px;
+}
+
+#contentDiv{
+    width: 100%; height: 650px;
+    overflow: hidden;
+}
+
+button{
+    outline: none;
+}
+
+#menuPage, #mainPage{
+    width: 1349px; height: 650px;
+    overflow: hidden;
+    float: left;
+}
+
+#menuPage{
+    /*background-color: gray;*/
+    background-image: url('../resource/backgoundMenu.jpg');
+    background-size: 1349px 843px;
+    display: block;
+}
+
+#menuPage>button{
+    width: 300px; height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #0CC;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 0px;
+    position: absolute;
+    top: 45%; left: 40%;
+}
+
+#mainPage{
+    background-image: url('../resource/backgound.jpg');
+    position: relative;
+    display: none;
+}
+
+#mainPage>img{
+    position: absolute;
+}
+
+#mainPage>#scoreZone{
+    position: absolute;
+    top: 2%; left: 3%;
+    z-index: 1;
+    display: none;
+}
+#mainPage>#scoreZone>label{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#mainPage>#suspendZone{
+    position: absolute;
+    top: 35%; left: 40%;
+    z-index: 1;
+    display: none;
+}
+#mainPage>#suspendZone>button{
+    width: 200px; height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px 50px;
+}
+
+#mainPage>#endZone{
+    position: absolute;
+    top: 30%; left: 40%;
+    width: 200px; height: 150px;
+    border: 1px #2B2B2B solid;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    z-index: 1;
+    display: none;
+}
+#mainPage>#endZone>p{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    border-bottom: 1px #2B2B2B solid;
+}
+#mainPage>#endZone>p, #mainPage>#endZone>div{
+    width: 200px; height: 50px;
+    text-align: center;
+}
+
+#mainPage>#endZone>div>button{
+    margin-top: 10px;
+    width: 150px; height: 30px;
+    border-radius: 10px;
+    border: 1px #2B2B2B solid;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+

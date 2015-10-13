@@ -1,3 +1,5 @@
 # AircraftWar
 web game
-原生javascript编写飞机大战;
+
+原生JavaScript编写飞机大战;
+
