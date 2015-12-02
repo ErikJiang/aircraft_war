@@ -1,5 +1,5 @@
 /**
- * Created by gxa on 2015/10/9.
+ * Created by jiangink on 2015/10/9.
  */
 window.onload = function(){
     var oMenuPage = document.getElementById("menuPage");
